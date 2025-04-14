@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Блог Тиграна Саргсяна",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,7 +29,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#EFF1F5",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
@@ -66,14 +66,17 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({
+        comments: false, 
+        enableInHtmlEmbed: true,
+     }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest", lazyLoad: true }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [Plugin.ExplicitPublish()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
@@ -93,4 +96,7 @@ const config: QuartzConfig = {
   },
 }
 
+
 export default config
+
+
