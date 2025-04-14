@@ -14,8 +14,11 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+        <p>
+  Сад Тиграна Саргсяна © {year}. Inspired by Quartz, идеи, чай и markdown ☕️
+  <br/>
+  Лицензия: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru">CC BY-NC-SA 4.0</a>
+</p>
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

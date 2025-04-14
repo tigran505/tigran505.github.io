@@ -38,6 +38,7 @@ export default (() => {
 
     return (
       <head>
+        <meta name="yandex-verification" content="41223018cbd0c7b2" />
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (

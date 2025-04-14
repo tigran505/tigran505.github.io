@@ -133,3 +133,24 @@
 .callout[data-callout="tweet"] .callout-icon {
     display: none;
 }
+
+/* Делаю таблицу */
+
+/* Обводка по всем ячейкам таблицы */
+table, th, td {
+    border: 1px solid #BCC0CC;
+    border-collapse: collapse;
+  }
+  
+  /* Добавим отступы для читаемости */
+  th, td {
+    padding: 8px 12px;
+  }
+  
+  /* Сделаем текст чуть контрастнее */
+  table {
+    color: #111;
+    background-color: #EFF1F5;
+  }
+  
+ 
