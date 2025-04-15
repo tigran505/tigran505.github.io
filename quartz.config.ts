@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "ru-RU",
     baseUrl: "tigran.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
