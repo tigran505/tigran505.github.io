@@ -10,7 +10,10 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-     Telegram: "https://t.me/tigran_chem", Email: "mailto:t.sargsyan2021@vk.com", RSS: "https://doctor-robotnik505.github.io/repo/index.xml", Github: "https://github.com/doctor-robotnik505/repo"
+     Telegram: "https://t.me/tigran_chem", 
+     Email: "mailto:t.sargsyan2021@vk.com", 
+     RSS: "https://doctor-robotnik505.github.io/repo/index.xml", 
+     Github: "https://github.com/doctor-robotnik505/repo",
     },
   }),
 }
