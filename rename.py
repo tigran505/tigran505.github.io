@@ -1,7 +1,7 @@
 import os
 import re
 
-IMAGE_FOLDER = "content/images"
+IMAGE_FOLDER = "content/Кэш"
 CONTENT_FOLDER = "content"
 
 # 1. Переименование файлов с @ → _
