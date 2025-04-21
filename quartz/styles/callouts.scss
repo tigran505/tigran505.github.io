@@ -160,3 +160,15 @@
     font-weight: $semiBoldWeight;
   }
 }
+
+.callout[data-callout="lyrics"] {
+	--callout-color: #8A2BE2; /* Фиолетовый */
+	--callout-icon: lucide-music; /* Музыкальная нота */
+	border-left: 4px solid var(--callout-color);
+	background-color: rgba(138, 43, 226, 0.1); /* Лёгкий фиолетовый фон */
+  }
+  
+  .callout[data-callout="lyrics"] .callout-title {
+	color: var(--callout-color);
+	font-weight: bold;
+  }

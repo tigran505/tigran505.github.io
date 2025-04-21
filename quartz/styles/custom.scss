@@ -179,3 +179,30 @@ table, th, td {
     background-color: var(--light-gray);
   }
  
+  .infobox {
+    float: right;
+    width: 250px;
+    margin: 0 0 1em 1em;
+    padding: 1em;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    background-color: var(--card); // или var(--light), если хочешь светлее
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-size: 0.95em;
+  }
+  
+  .infobox-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 0.3em;
+  }
+  
+  .infobox-item {
+    margin: 0.2em 0;
+  }
+  .infobox-img {
+    max-height: 200px;
+    object-fit: cover;
+  }
