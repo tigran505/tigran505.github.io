@@ -9,6 +9,7 @@ type: Трек
 publish: true
 play_count: 
 modified:
+  - 2025-05-02T16:19:55+07:00
   - 2025-05-01T13:53:23+07:00
   - 2025-04-30T16:32:15+07:00
   - 2025-04-30T14:12:38+07:00
@@ -30,7 +31,7 @@ album:
 | It's just the truch 'cause I be swaggin' on y'alls, ayy                           | Сам с собой честен я — мой стиль на голову выше вас, эй | Это просто правда, потому что я понтуюсь перед всеми вами, эй  |
 | \[Chorus]                                                                         | \[Куплет]                                               | \[Куплет]                                                      |
 | Every week is fashion week for me                                                 | Каждый день мой будто Fashion Week                      | Каждая неделя для меня — неделя моды                           |
-| Wake up, put on all the freshest shit you ever seen                               | Просыпаясь, нацепляю эти шмотки на себя                 | Просыпаюсь, надеваю всё самое свежее, что вы когда-либо видели |
+| Wake up, put on all the freshest shit you ever seen                               | Просыпаясь, нацепляю шмотки на себя                     | Просыпаюсь, надеваю всё самое свежее, что вы когда-либо видели |
 | [[Нью-Йорк\|New York]], [[Лос-Анджелес\|LA]], [[Милан\|Milan]], [[Италия\|Italy]] | Нью-Йорк, Эл-Эй, Милан, Италия                          | Нью-Йорк, Лос-Анджелес, Милан, Италия                          |
 | I know that your girl wanna get up and leave with me                              | Да, твоя девчонка прямо тут бросит тебя                 | Я знаю, что твоя девушка хочет встать и уйти со мной           |
 | \[Verse]                                                                          | \[Припев]                                               | \[Припев]                                                      |
@@ -42,11 +43,11 @@ album:
 | And I just spent your car note on her bag, yeah, yeah                             | И я купил ей сумку по цене авто, е-ее                   | И только что потратил твою платёжку на её сумку, да, да        |
 | \[Chorus]                                                                         | \[Куплет]                                               | \[Куплет]                                                      |
 | 'Cause every week is fashion week for me                                          | Просто каждый день мой будто Fashion Week               | Потому что каждая неделя для меня — неделя моды                |
-| Wake up, put on all that freshest shit you ever seen                              | Просыпаясь, нацепляю эти шмотки на себя                 | Просыпаюсь, надеваю всё самое свежее, что вы когда-либо видели |
+| Wake up, put on all that freshest shit you ever seen                              | Просыпаясь, нацепляю шмотки на себя                     | Просыпаюсь, надеваю всё самое свежее, что вы когда-либо видели |
 | I got shit you don't and that's a fact                                            | Ты меня беднее, это факт                                | У меня есть вещи, которых у вас нет, и это факт                |
 | I don't really, really feel that bad, yeah, yeah                                  | Честно, мне тебя вообще не жаль, е, е                   | И мне вообще, вообще не плохо, да, да                          |
 | Every week is fashion week for me                                                 | Каждый день мой будто Fashion Week                      | Каждая неделя для меня — неделя моды                           |
-| Wake up, put on all the freshest shit you ever see                                | Просыпаясь, нацепляю эти шмотки на себя                 | Просыпаюсь, надеваю всё самое свежее, что вы когда-либо видели |
+| Wake up, put on all the freshest shit you ever see                                | Просыпаясь, нацепляю шмотки на себя                     | Просыпаюсь, надеваю всё самое свежее, что вы когда-либо видели |
 | New York, LA, Milan, Italy                                                        | Нью-Йорк, Эл-Эй, Милан, Италия                          | Нью-Йорк, Лос-Анджелес, Милан, Италия                          |
 | I know that your girl wanna get up and leave with me                              | Да, твоя девчонка прямо тут бросит тебя                 | Я знаю, что твоя девушка хочет встать и уйти со мной           |
 | 'Cause every week is fashion week for me                                          | Просто каждый день мой будто Fashion Week               | Потому что каждая неделя для меня — неделя моды                |
