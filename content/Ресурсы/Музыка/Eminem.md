@@ -7,6 +7,7 @@ aliases:
   - Маршалл Мэттерс
 publish: true
 modified:
+  - 2025-05-05T18:57:52+07:00
   - 2025-04-02T07:01:18+07:00
   - 2025-03-19T22:31:34+07:00
 created: 2025-02-12T17:02:08+07:00
@@ -29,6 +30,7 @@ created: 2025-02-12T17:02:08+07:00
 ### [[The Eminem Show]] 
 ### [[Encore]]
 ### [[The Marshall Mathers LP 2]]
+### [[Kamikaze]]
 ### [[Music To Be Murdered By]]
 ### [[The Death of Slim Shady]] 
 ## Сборники 
