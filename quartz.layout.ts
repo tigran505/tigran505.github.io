@@ -6,7 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.RecentNotes({ showTags: false, limit: 10, title: "Недавние заметки: "}),
+    Component.Comments()
   ],
   footer: Component.Footer({
     links: {
