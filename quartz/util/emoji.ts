@@ -31,12 +31,30 @@ type EmojiMap = {
 }
 
 let emojimap: EmojiMap | undefined = undefined
+
+// Добавляем поддержку некоторых флагов (составные codepoint)
+const customFlagMap: Record<string, string> = {
+  "1f1fa-1f1f8": "flag-us", // 🇺🇸
+  "1f1f7-1f1fa": "flag-ru", // 🇷🇺
+  // сюда можно добавить другие флаги по необходимости
+}
+
+// Функция загрузки emoji с поддержкой составных codepoint (например, флаги)
 export async function loadEmoji(code: string) {
   if (!emojimap) {
     const data = await import("./emojimap.json")
     emojimap = data
   }
 
+  // Сначала проверяем в нашем кастомном мапе (для флагов)
+  if (customFlagMap[code.toLowerCase()]) {
+    const name = customFlagMap[code.toLowerCase()]
+    const b64 = emojimap.nameToBase64[name]
+    if (!b64) throw new Error(`name ${name} not found in map`)
+    return b64
+  }
+
+  // Стандартный поиск по одиночному codepoint
   const name = emojimap.codePointToName[`U+${code.toUpperCase()}`]
   if (!name) throw new Error(`codepoint ${code} not found in map`)
 
