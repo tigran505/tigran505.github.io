@@ -2,7 +2,7 @@
 dg-home: true
 publish: true
 modified:
-  - 2025-05-20T07:52:49+07:00
+  - 2025-05-22T17:28:17+07:00
 created: 2025-03-06T15:27:51+07:00
 title: Обо мне
 cssclasses:
