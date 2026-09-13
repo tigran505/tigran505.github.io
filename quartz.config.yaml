@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Сайт Тиграна Саргсяна
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ru-RU
   baseUrl: tigran505.github.io
   ignorePatterns:
     - private
@@ -16,29 +16,29 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: PT Serif
+      body: Noto Sans
+      code: Anonymous Pro
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#ffffff"          # Чистый белый фон страниц
+        lightgray: "#a2a9b1"      # Серый цвет для рамок и разделителей (как в инфобоксах Wiki)
+        gray: "#72777d"          # Вспомогательный текст (даты, подписи)
+        darkgray: "#202122"      # Основной текст (фирменный глубокий темно-серый Википедии)
+        dark: "#000000"          # Заголовки (абсолютно черный для контраста)
+        secondary: "#3366cc"     # Знаменитый синий цвет ссылок Википедии
+        tertiary: "#234c97"      # Цвет посещенных ссылок (чуть темнее)
+        highlight: "rgba(51, 102, 204, 0.1)" # Цвет выделения при поиске/клике
+        textHighlight: "#ffdf3d88" # Желтый маркер для выделения текста
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#101419"          # Глубокий темный фон
+        lightgray: "#2a3039"      # Темно-серые границы плашек
+        gray: "#72777d"          # Вспомогательный текст
+        darkgray: "#eaecf0"      # Светло-серый основной текст для чтения ночью
+        dark: "#ffffff"          # Белые заголовки
+        secondary: "#6699ff"     # Адаптированные под темную тему синие ссылки
+        tertiary: "#4672c4"      # Темно-синие посещенные ссылки
+        highlight: "rgba(102, 153, 255, 0.15)"
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
