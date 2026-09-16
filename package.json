@@ -64,7 +64,7 @@
     "@quartz-community/folder-page": "^0.1.0",
     "@quartz-community/footer": "^0.1.0",
     "@quartz-community/github-flavored-markdown": "^0.1.0",
-    "@quartz-community/graph": "^0.1.0",
+    "@quartz-community/graph": "^1.0.0",
     "@quartz-community/hard-line-breaks": "^0.1.0",
     "@quartz-community/latex": "^0.1.0",
     "@quartz-community/note-properties": "^0.1.0",
@@ -122,7 +122,7 @@
   },
   "devDependencies": {
     "@quartz-community/types": "^0.3.0",
-    "@quartz-community/utils": "^0.1.0",
+    "@quartz-community/utils": "^1.0.0",
     "@types/hast": "^3.0.4",
     "@types/node": "^25.0.10",
     "@types/pretty-time": "^1.1.5",
