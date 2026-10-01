@@ -1,7 +1,12 @@
 ---
 publish: true
+aliases:
+  - Costa secunda
+  - R2
 created: 2026-09-07T13:30:00.963Z
-modified: 2026-09-15T23:52:49.224Z
+modified: 2026-09-30T00:16:27.541Z
+tags:
+  - Остеология
 ---
 
 - Costa secunda
